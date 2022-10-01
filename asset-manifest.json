@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/portFolio/static/css/main.27ebcff9.css",
+    "main.js": "/portFolio/static/js/main.66f96a1c.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portFolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Profile.JPG": "/portFolio/static/media/Profile.7e9686748207846aa94e.JPG",
+    "static/media/CropImage.png": "/portFolio/static/media/CropImage.dcdbd2c2aa4407c58fe6.png",
+    "static/media/CodingIcon.svg": "/portFolio/static/media/CodingIcon.1029a4cc96ee0cb0d60a901dd1d59201.svg",
+    "static/media/Skill.svg": "/portFolio/static/media/Skill.76a14abdea861de4978ba62dee7059cd.svg",
+    "static/media/Instagram.svg": "/portFolio/static/media/Instagram.e3eb2e9300f8a0e4956fdffa82ab6623.svg",
+    "static/media/Dribbble.svg": "/portFolio/static/media/Dribbble.7ad54d4d446ec9d707cf1af8df68590c.svg",
+    "static/media/Twitter.svg": "/portFolio/static/media/Twitter.cc47db8f7e00766d314c0a66e7bad107.svg",
+    "static/media/EducationIcon.svg": "/portFolio/static/media/EducationIcon.3835292a4f4a464b333ac7de7048eb1b.svg",
+    "static/media/Linkeding.svg": "/portFolio/static/media/Linkeding.5f889875bb91a604a33ccda7a1721cdd.svg",
+    "static/media/Youtube.svg": "/portFolio/static/media/Youtube.99444c81437fb49966f72e1f525ecb1c.svg",
+    "static/media/Experience.svg": "/portFolio/static/media/Experience.665773b7e7e315ff8f47ec718ed3000b.svg",
+    "index.html": "/portFolio/index.html",
+    "static/media/Facebook.svg": "/portFolio/static/media/Facebook.eddc8437ee6ef531fcb89fec24f54f50.svg",
+    "static/media/Home.svg": "/portFolio/static/media/Home.c71df85939c1f2cf97cc3024b1af4d11.svg",
+    "static/media/Contact.svg": "/portFolio/static/media/Contact.58a33077378650afa052e6d813558a40.svg",
+    "static/media/Project.svg": "/portFolio/static/media/Project.b074fc8f109e645d58e9db1d3fdc977c.svg",
+    "static/media/ExtraIcon.svg": "/portFolio/static/media/ExtraIcon.1a072a15fe270f857e4fcb73264fe1bc.svg",
+    "main.27ebcff9.css.map": "/portFolio/static/css/main.27ebcff9.css.map",
+    "main.66f96a1c.js.map": "/portFolio/static/js/main.66f96a1c.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portFolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.27ebcff9.css",
+    "static/js/main.66f96a1c.js"
+  ]
+}
