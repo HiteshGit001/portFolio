@@ -1,0 +1,47 @@
+@import "./variable";
+@import "./mixin";
+
+p{
+  margin: 0 !important;
+  padding: 0;
+}
+
+.bg_color{
+  background-color: #F5F5F5 !important;
+}
+
+.flex_start_center {
+  @include flex(row, none, center);
+}
+
+.flex_between_center {
+  @include flex(row, space-between, center);
+}
+
+.flex_center_center {
+  @include flex(row, center, center);
+}
+
+.flex_between_start {
+  @include flex(row, space-between, start);
+}
+
+.flex_none_start {
+  @include flex(row, none, start);
+}
+
+.flex_none_start_footer {
+  @include flex(row, none, start, none, 48%);
+}
+
+.flex_col {
+  @include flex(column, none, center);
+}
+
+.flex_col_center {
+  @include flex(column, start, center, none)
+}
+
+.flex_around_center {
+  @include flex(row, space-around, center);
+}

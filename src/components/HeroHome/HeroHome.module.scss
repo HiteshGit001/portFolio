@@ -1,0 +1,40 @@
+@import "../../assets/scss/import";
+
+.hero_box {
+  padding: 0.5rem 2rem 1.5rem 2.5rem;
+  background-color: $white;
+  margin: 0 1.688rem;
+
+  div:first-child {
+    p:first-child {
+      @include font($font-primary, 3rem, 3.68rem, 700, $title);
+      padding: 5.813rem 5.813rem 1.125rem 0;
+
+      .hilight {
+        @include font($font-primary, 3rem, 3.68rem, 700, $primary);
+      }
+    }
+
+    p {
+      @include font($font-primary, 1rem, 1.5rem, 400, $subtite);
+    }
+
+    button{
+      @include font($font-primary, 1rem, 1.18rem, 500, $title);
+      background-color: $primary;
+      padding: 1rem 2rem;
+      border: none;
+      margin-top: 2.56rem;
+      border-radius: 5px;
+    }
+  }
+
+  .img_profile {
+    width: 20rem;
+    height: 25.6rem;
+  }
+}
+
+.col_gap{
+  gap: 8.625rem;
+}

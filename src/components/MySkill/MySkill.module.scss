@@ -1,0 +1,32 @@
+@import "../../assets/scss/import";
+
+.container {
+  text-align: center;
+  width: 100%;
+
+  p:first-Child {
+    @include font($font-primary, 2rem, 2.4rem, 700, $title)
+  }
+
+  .skill_box {
+    background-color: $white;
+    margin-left: 1.25rem;
+    padding: 2.188rem 4.75rem 2.625rem 4.75rem;
+    img{
+      height: 3.313rem !important;
+    }
+    .title {
+      padding: 1.875rem 0 1rem 0;
+      @include font($font-primary, 1.125rem, 1.3rem, 500, $title);
+    }
+
+    p{
+      @include font($font-primary, 1rem, 1.5rem, 400, $subtite)
+    }
+  }
+
+
+  .card {
+    padding: 1.875rem 3.125rem;
+  }
+}

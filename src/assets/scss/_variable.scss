@@ -1,0 +1,29 @@
+//importing fonts
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+//Inter
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&&display=swap");
+//DM Sans
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
+// Poppins
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+// Prefix for :root CSS variables
+$variable-prefix: vz-;
+
+// Font Families
+$font-primary: "Inter",
+  sans-serif;
+$font-secondary: "DM Sans",
+  sans-serif;
+$font-tertiary: "Poppins",
+  sans-serif;
+$font-quaternary: "Work Sans",
+  sans-serif;
+
+// color
+$white: #fff;
+$title:#2B2B2B;
+$subtite: #767676;
+$green:#7EB942;
+$primary:#FFB400;
+$bg2: #FAFAFA;

@@ -1,0 +1,57 @@
+@import "../../assets/scss/import";
+
+.side_nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 0 2.125rem;
+  box-shadow: 4px 0px 10px rgba(47, 122, 249, 0.1);
+  background-color: $bg2;
+  gap: 2.688rem;
+}
+
+.nav_icon {
+  position: relative;
+
+  img {
+    padding: 0.85rem;
+  }
+
+  .img_active {
+    background-color: $primary;
+    border-radius: 100%;
+  }
+
+  .tool {
+    display: none;
+    position: absolute;
+    right: 60px;
+    bottom: 7px;
+    border-radius: 5px;
+    padding: 6px 15px;
+    background-color: black;
+    color: white;
+  }
+
+  .tip {
+    display: none;
+    position: absolute;
+    right: 50px;
+    bottom: 14px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid black;
+  }
+}
+
+.nav_icon:hover span {
+  display: block;
+}
+
+.tip:hover {
+  display: block;
+}

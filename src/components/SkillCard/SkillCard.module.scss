@@ -1,0 +1,106 @@
+@import "../../assets/scss/import";
+
+.skill_card {
+  background-color: $white;
+  width: 19.063rem;
+}
+
+.img_height {
+  text-align: center;
+  padding: 3.125rem 4.625rem;
+  padding-bottom: 0;
+
+  img {
+    height: 9.37rem !important;
+    width: 9.375rem !important;
+    border-radius: 100%;
+    margin-bottom: 1.875rem;
+  }
+
+  .name {
+    @include font($font-primary, 1.125rem, 123.6%, 500, $title);
+  }
+
+  .job_profile {
+    @include font($font-primary, 0.95rem, 1.5rem, 400, $subtite);
+  }
+}
+
+.icon_flex {
+  gap: 0.95rem;
+  margin: 0.95rem 2.5rem 1.5rem 2.5rem;
+  padding-bottom: 0.95rem;
+  border-bottom: 1.5px solid #F0F0F6;
+
+  img {
+    width: 1.5rem !important;
+    height: 1.5rem !important;
+  }
+}
+
+// personal info card
+
+.per_card {
+  gap: 0.95rem;
+  margin: 0.95rem 2.5rem 1.5rem 2.5rem;
+  padding-bottom: 0.95rem;
+  border-bottom: 1.5px solid #F0F0F6;
+
+  div {
+    margin-bottom: 0.625rem;
+
+    .per_heading {
+      @include font($font-primary, 0.95rem, 1.5rem, 400, $title);
+      background-color: $primary;
+      padding: 1px 5px;
+    }
+
+    .per_no {
+      color: red !important;
+    }
+
+    .per_ans {
+      color: $green;
+    }
+
+    .per_text {
+      color: $title;
+    }
+  }
+}
+
+.language {
+  gap: 0.95rem;
+  margin: 0.95rem 2.5rem 1.5rem 2.5rem;
+  padding-bottom: 0.95rem;
+  border-bottom: 1.5px solid #F0F0F6;
+
+  .lang_title {
+    padding-bottom: 1rem;
+    @include font($font-primary, 1.125rem, 123.6%, 500, $title);
+  }
+}
+
+// language card
+
+.bar {
+  margin: 5px 0 10px 0;
+  height: 2px;
+  width: 100%;
+  outline: 0.5px solid $primary;
+  outline-offset: 2px;
+  background-color: $primary;
+  animation-name: example;
+  animation-duration: 4s;
+  border-radius: 30px;
+}
+
+@keyframes example {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
+}
