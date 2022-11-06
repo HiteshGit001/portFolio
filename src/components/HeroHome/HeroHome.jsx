@@ -2,6 +2,8 @@ import React from 'react';
 import styles from "./HeroHome.module.scss";
 import CropImage from "../../assets/image/CropImage.png";
 import MySkill from '../MySkill/MySkill';
+import ExplainCard from '../ExplainCard/ExplainCard';
+import ContactUs from '../ContactUs/ContactUs';
 
 const HeroHome = () => {
   return (
@@ -24,6 +26,8 @@ const HeroHome = () => {
         </div>
       </div>
       <MySkill />
+      <ExplainCard />
+      <ContactUs />
     </div>
   )
 }
