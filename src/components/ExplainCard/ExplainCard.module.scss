@@ -1,0 +1,30 @@
+@import "../../assets/scss/import";
+
+.exp_card {
+  text-align: center;
+
+  .title {
+    @include font($font-primary, 2rem, 2.5rem, 700, $title);
+  }
+
+  .dis {
+    @include font($font-primary, 1rem, 1.5rem, 400, $subtite);
+    padding: 0 20%;
+    padding-bottom: 3.12rem;
+  }
+
+  .work_exp {
+    @include flex(row, space-between, center);
+    text-align: left;
+    background-color: $white;
+    padding: 2.6rem 1.8rem 2.6rem 2.25rem;
+  }
+
+  .job_name {
+    @include font($font-primary, 1rem, 1.25rem, 500, $title);
+  }
+
+  .job_dis {
+    @include font($font-primary, 1rem, 1.5rem, 400, $subtite);
+  }
+}

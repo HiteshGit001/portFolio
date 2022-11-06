@@ -1,6 +1,8 @@
 @import "../../assets/scss/import";
 
 .skill_card {
+  position: sticky;
+  top: 0;
   background-color: $white;
   width: 19.063rem;
 }
